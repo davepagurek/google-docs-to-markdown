@@ -1,15 +1,19 @@
 # Google Docs to Markdown
 
+View live: https://davepagurek.github.io/google-docs-to-markdown/
+
+## About this fork
+
+This is a form of <a href="https://github.com/Mr0grog/google-docs-to-markdown">Mr0grog/google-docs-to-markdown</a>, but adjusted to fit the needs of p5.js documentation generation. Specifically:
+
+- It makes sure lists do not have newlines between them so that they form "tight lists"
+- It uses HTML syntax for tables so that it supports code and images within table cells
+- It always uses three-backtick code fences for consistency
+
+
+## About the original project
+
 This is a very minimal webapp for converting a Google Doc to Markdown. It uses [Remark](https://github.com/remarkjs/remark) and [Rehype](https://github.com/rehypejs/rehype) (both part of [Unified](https://unifiedjs.github.io)) to do the conversion.
-
-
-## Live Demo
-
-- https://mr0grog.github.io/google-docs-to-markdown/
-- https://bafybeihpbbnpk5f2cze5osp4su5hg52jplz7njwgl6nbqlqinlhwbu4imm.ipfs.dweb.link/
-
-(Both are built from [ef0a7a2](https://github.com/Mr0grog/google-docs-to-markdown/commit/ef0a7a2458e0af1922c4a98d2abcb4c807c9616c).)
-
 
 ## Install & Build
 
